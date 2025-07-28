@@ -1,65 +1,68 @@
-# LangGraph Örnekleri
+# LangGraph Examples
 
-Bu depo, LangGraph kütüphanesini kullanarak çeşitli grafik tabanlı yapay zeka uygulamalarını içerir. LangGraph, karmaşık iş akışlarını ve durum makinelerini oluşturmak için kullanılan güçlü bir Python kütüphanesidir.
+This repository contains various graph-based AI applications using the LangGraph library. LangGraph is a powerful Python library used for creating complex workflows and state machines.
 
-## İçerik
+## Contents
 
-### 1. Temel Örnekler
-- **Hello_World.ipynb**: LangGraph'e giriş ve temel kavramların anlatıldığı basit bir örnek.
-- **Sequential_Graph.ipynb**: Ardışık işlemlerin gerçekleştirildiği sıralı grafik örneği.
-- **Conditional_Graph.ipynb**: Koşullu dallanmalar içeren grafik örneği.
-- **Multiple_Inputs.ipynb**: Çoklu giriş alan grafik örneği.
+### 1. Basic Examples
+- **Hello_World.ipynb**: A simple example introducing LangGraph and its basic concepts.
+- **Sequential_Graph.ipynb**: Example of a sequential graph performing consecutive operations.
+- **Conditional_Graph.ipynb**: Example of a graph with conditional branching.
+- **Multiple_Inputs.ipynb**: Example of a graph that accepts multiple inputs.
 
-### 2. Alıştırmalar
-- **Exercise1.ipynb**: Temel LangGraph kullanımı alıştırmaları.
-- **Exercise2.ipynb**: Orta seviye grafik oluşturma alıştırmaları.
-- **Exercise3.ipynb**: İleri seviye uygulamalar ve özelleştirmeler.
+### 2. Exercises
+- **Exercise1.ipynb**: Basic LangGraph usage exercises.
+- **Exercise2.ipynb**: Intermediate graph creation exercises.
+- **Exercise3.ipynb**: Advanced applications and customizations.
 
-## Gereksinimler
+## Requirements
 
-- Python 3.8 veya üzeri
-- Jupyter Notebook veya JupyterLab
-- LangGraph kütüphanesi
-- Diğer gerekli kütüphaneler (requirements.txt dosyasında listelenmiştir)
+- Python 3.8 or higher
+- Required Python packages:
+  - `langgraph>=0.0.1` - For creating graph-based AI workflows
+  - `langchain-core>=0.1.0` - Core components for LangChain
+  - `langchain-google-genai>=0.0.1` - Google Generative AI integration for LangChain
+  - `python-dotenv>=1.0.0` - For loading environment variables from .env files
+  - `google-generativeai>=0.3.0` - Official Google Generative AI Python SDK
 
-## Kurulum
+## Installation
 
-1. Depoyu klonlayın:
+1. Clone the repository:
    ```bash
    git clone [repo-url]
    cd python_LangGraph
    ```
 
-2. Gerekli kütüphaneleri yükleyin:
+2. Install the required libraries:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Jupyter Notebook'u başlatın:
+3. Start Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
 
-## Kullanım
+## Usage
 
-1. `Graphs` klasöründeki örnekleri inceleyerek başlayın.
-2. Her örnek, belirli bir LangGraph özelliğini göstermektedir.
-3. Kodları çalıştırarak ve değiştirerek farklı senaryoları deneyin.
+1. Start by exploring the examples in the `Graphs` folder.
+2. Each example demonstrates a specific LangGraph feature.
+3. Try running and modifying the code to experiment with different scenarios.
 
-## Katkıda Bulunma
+## Contributing
 
-Bu proje açık kaynaklıdır ve katkılarınızı bekliyoruz. Katkıda bulunmak için:
+This is an open-source project and we welcome contributions. To contribute:
 
-1. Fork edin
-2. Yeni bir branch oluşturun (`git checkout -b yeni-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`)
-4. Branch'e push yapın (`git push origin yeni-ozellik`)
-5. Pull Request oluşturun
+1. Fork the repository
+2. Create a new branch (`git checkout -b new-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin new-feature`)
+5. Create a new Pull Request
 
-## Lisans
+## License
 
-Bu proje MIT lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## İletişim
+## Contact
 
-Sorularınız veya önerileriniz için lütfen bir issue açın.
+For questions or suggestions, please open an issue.
