@@ -1,12 +1,12 @@
 {
   "editor.quickSuggestions": {
     "other": true,
-    "comments": false,
-    "strings": false
+    "comments": true,
+    "strings": true
   },
   "editor.suggestOnTriggerCharacters": true,
   "editor.suggest.showWords": true,
-  "editor.inlineSuggest.enabled": false
+  "editor.inlineSuggest.enabled": true
 
 
 }
